@@ -8,6 +8,8 @@ elsif  steps > 25
 	puts "nombre trop grand"
 else
 	for i in (1..steps)
-		puts (" "*(steps-i)) + ("#"*i)
+		puts (" "*(steps-i)) + ("#"*i) 
+		# ecrit autant d'espace que mon maximum de steps - mon étage
+  		# puis autant de dièse que de steps
 	end
 end
